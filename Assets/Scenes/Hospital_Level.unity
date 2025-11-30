@@ -1587,7 +1587,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 81a2a5cd8657b9b40865765b80ad8bfe, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1680,7 +1680,7 @@ Transform:
   m_GameObject: {fileID: 37644590}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.446, y: 0.859, z: -3.544}
+  m_LocalPosition: {x: -4.14, y: 0.859, z: -4.453}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10269,7 +10269,7 @@ PlayableDirector:
   - key: {fileID: -5084238649151160136, guid: fc638c83ab0175e40acafe00d315f80b, type: 2}
     value: {fileID: 37644591}
   - key: {fileID: -7514406058166319478, guid: fc638c83ab0175e40acafe00d315f80b, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1560249333}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &523212716
@@ -13909,7 +13909,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7220368, g: 0.7264151, b: 0.6476059, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -17767,7 +17767,7 @@ PrefabInstance:
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.224
+      value: -12.585
       objectReference: {fileID: 0}
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
@@ -17777,12 +17777,12 @@ PrefabInstance:
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.1907
+      value: -8.024
       objectReference: {fileID: 0}
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8433915
       objectReference: {fileID: 0}
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
@@ -17792,7 +17792,7 @@ PrefabInstance:
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.53729963
       objectReference: {fileID: 0}
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
@@ -17807,7 +17807,7 @@ PrefabInstance:
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 8326678481101050231, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
@@ -17822,7 +17822,7 @@ PrefabInstance:
     - target: {fileID: 8702534868499336141, guid: 2459a6af98a1eae4ebc79b1ffd638762,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20780,13 +20780,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259767140}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -1.8900001, y: 0, z: 7.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1261450157
 GameObject:
   m_ObjectHideFlags: 0
@@ -22343,7 +22343,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7220368, g: 0.7264151, b: 0.6476059, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -25633,6 +25633,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1433484791831769495, guid: 51bd9d5004648ca48b235b88b95b5e19,
     type: 3}
   m_PrefabInstance: {fileID: 1559208384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560249333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8702534868499336141, guid: 2459a6af98a1eae4ebc79b1ffd638762,
+    type: 3}
+  m_PrefabInstance: {fileID: 1016605388}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1561107970
 PrefabInstance:
